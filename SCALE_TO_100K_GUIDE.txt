@@ -1,0 +1,70 @@
+SCALE TO 100,000 SOUND EFFECTS
+
+IMPORTANT TRUTH
+
+Do not put 100,000 audio files inside one ChatGPT download ZIP.
+That would become too large, slow, and unreliable.
+
+This package uses a better system:
+1. It already includes 2,000 starter SFX.
+2. It includes a generator that can create 10,000, 50,000, or 100,000 local SFX.
+3. The app reads the SFX from public/sfx/sfx-manifest.json.
+4. The tool selects sounds by niche, category, keyword, and volume rules.
+
+HOW TO GENERATE MORE SFX
+
+Open this project in VS Code.
+
+Install packages first:
+
+npm install
+cd server
+npm install
+cd ..
+
+Generate 10,000 SFX:
+
+npm run generate:sfx:10k
+
+Generate 50,000 SFX:
+
+npm run generate:sfx:50k
+
+Generate 100,000 SFX:
+
+npm run generate:sfx:100k
+
+BEGINNER ADVICE
+
+Start with 10,000 first.
+Test the app.
+Then try 50,000.
+Only use 100,000 if your computer has enough storage and the app still feels smooth.
+
+WHY 100,000 CAN BE A PROBLEM
+
+100,000 WAV files can:
+- use a lot of disk space
+- slow down GitHub upload
+- slow down public deployment
+- make Render/Railway build slower
+- make backups heavy
+- make the SFX dropdown harder to search
+
+BEST PUBLIC SETUP FOR 100,000 SFX
+
+For a serious public tool, do this:
+
+1. Keep the app and backend on Render or Railway.
+2. Store huge SFX files on Cloudflare R2, AWS S3, or Supabase Storage.
+3. Keep only the SFX manifest in the app.
+4. Load only the selected SFX file when mixing.
+5. Add user login and usage limits.
+
+LICENSING WARNING
+
+The generated SFX are procedural demo sounds.
+They are safe for testing because they are not copied from movies, games, YouTube, or TikTok.
+
+For professional results, replace or expand them with licensed sound libraries.
+Do not scrape copyrighted SFX from the internet.

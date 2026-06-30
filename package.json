@@ -1,0 +1,23 @@
+{
+  "name": "irungu-sounds-pro-common-2000",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js",
+    "generate:sfx": "node scripts/generate-sfx-library.cjs",
+    "generate:sfx:10k": "node scripts/generate-sfx-library.cjs --count=10000",
+    "generate:sfx:50k": "node scripts/generate-sfx-library.cjs --count=50000",
+    "generate:sfx:100k": "node scripts/generate-sfx-library.cjs --count=100000"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {}
+}

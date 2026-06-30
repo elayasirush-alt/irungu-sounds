@@ -1,0 +1,111 @@
+{
+  "General Video": {
+    "description": "Clean common SFX for any video: whooshes, soft impacts, transitions, stings, atmospheres.",
+    "energy": 0.72,
+    "sfxMaster": 64,
+    "voiceVolume": 100,
+    "preferredCategories": [
+      "Cinematic Whoosh",
+      "Soft Whoosh",
+      "Clean Sweep",
+      "Soft Impact",
+      "Documentary Sting",
+      "Warm Atmosphere"
+    ]
+  },
+  "Animals / Wildlife Documentary": {
+    "description": "Wildlife, animals, nature ambience, water, tension, soft cinematic movement.",
+    "energy": 0.76,
+    "sfxMaster": 66,
+    "voiceVolume": 100,
+    "preferredCategories": [
+      "Animal Wildlife",
+      "Nature Ambience",
+      "Water Ambience",
+      "Dark Drone",
+      "Tension Riser",
+      "Documentary Sting",
+      "Soft Whoosh"
+    ]
+  },
+  "Documentary / Explainer": {
+    "description": "Professional documentary stings, soft transitions, low hits and atmosphere.",
+    "energy": 0.68,
+    "sfxMaster": 62,
+    "voiceVolume": 100,
+    "preferredCategories": [
+      "Documentary Sting",
+      "Soft Whoosh",
+      "Clean Sweep",
+      "Low Impact",
+      "Warm Atmosphere",
+      "Dark Drone"
+    ]
+  },
+  "Cars / Engineering": {
+    "description": "Clean cinematic movement, impacts, pulses and transitions for engineering/car videos.",
+    "energy": 0.78,
+    "sfxMaster": 68,
+    "voiceVolume": 100,
+    "preferredCategories": [
+      "Deep Whoosh",
+      "Cinematic Hit",
+      "Low Impact",
+      "Trailer Hit",
+      "Camera Transition",
+      "Cinematic Pulse"
+    ]
+  },
+  "Business / Wealth": {
+    "description": "Subtle, non-irritating business SFX: soft clicks, stings, transitions and warm atmosphere.",
+    "energy": 0.6,
+    "sfxMaster": 58,
+    "voiceVolume": 100,
+    "preferredCategories": [
+      "Soft Notification",
+      "Soft UI Click",
+      "Documentary Sting",
+      "Soft Whoosh",
+      "Warm Atmosphere"
+    ]
+  },
+  "Horror / Mystery": {
+    "description": "Controlled dark drones, tension risers, low impacts and suspense transitions.",
+    "energy": 0.8,
+    "sfxMaster": 66,
+    "voiceVolume": 100,
+    "preferredCategories": [
+      "Dark Drone",
+      "Tension Riser",
+      "Low Impact",
+      "Reverse Whoosh",
+      "Trailer Hit"
+    ]
+  },
+  "Action / Trailer": {
+    "description": "Trailer-style hits, risers, deep whooshes and pulses without harsh beeping.",
+    "energy": 0.86,
+    "sfxMaster": 70,
+    "voiceVolume": 100,
+    "preferredCategories": [
+      "Trailer Hit",
+      "Cinematic Hit",
+      "Deep Whoosh",
+      "Riser",
+      "Cinematic Pulse"
+    ]
+  },
+  "Nature / Travel": {
+    "description": "Nature, water, soft sweeps and calm atmosphere.",
+    "energy": 0.58,
+    "sfxMaster": 58,
+    "voiceVolume": 100,
+    "preferredCategories": [
+      "Nature Ambience",
+      "Water Ambience",
+      "Soft Whoosh",
+      "Warm Atmosphere",
+      "Clean Sweep"
+    ]
+  }
+}

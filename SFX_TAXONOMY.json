@@ -1,0 +1,12 @@
+{
+  "Cinematic": ["Whoosh", "Reverse Whoosh", "Riser", "Cinematic Boom", "Sub Boom", "Impact Hit", "Cinematic Sting"],
+  "Documentary": ["Dark Drone", "Mystery Drone", "Soft Whoosh", "Soft Chime", "Data Beep"],
+  "Nature": ["Wind", "Water", "Rain", "Fire", "Thunder-style atmospheres"],
+  "Tech": ["Data Beep", "Radar Ping", "Glitch", "Digital Error", "Radio Static", "Electric Zap"],
+  "Foley": ["Footsteps", "Running Steps", "Metal Hit", "Wood Hit", "Glass Hit"],
+  "Vehicles": ["Engine", "Machine", "Metal Hit", "Fast Whoosh"],
+  "Business": ["Success Chime", "Luxury Pad", "Data Beep", "Soft Chime"],
+  "Action": ["Explosion Boom", "Impact Hit", "Alarm", "Tension Rise", "Cinematic Boom"],
+  "Horror": ["Dark Drone", "Mystery Drone", "Radio Static", "Reverse Whoosh", "Cinematic Sting"],
+  "Expansion": ["Add licensed SFX packs in public/sfx and update sfx-manifest.json"]
+}

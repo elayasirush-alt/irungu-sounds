@@ -1,0 +1,12 @@
+IRUNGU SOUNDS PRO COMMON 2000 COMMANDS
+
+Backend:
+cd C:\Users\user\Downloads\IRUNGU_SOUNDS_PRO_COMMON_2000\server
+npm.cmd start
+
+Frontend:
+cd C:\Users\user\Downloads\IRUNGU_SOUNDS_PRO_COMMON_2000
+npm.cmd run dev -- --host 127.0.0.1 --port 5174
+
+Open:
+http://127.0.0.1:5174
