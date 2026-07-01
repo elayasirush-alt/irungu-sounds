@@ -5,3 +5,5 @@ server/uploads
 server/output
 .git
 .env
+*.log
+.DS_Store

@@ -1,5 +1,5 @@
 @echo off
-title IRUNGU SOUNDS Pro Common 2000
+title IRUNGU SOUNDS Pro Common 7000
 
 echo Starting IRUNGU SOUNDS...
 echo This launcher works from any folder.

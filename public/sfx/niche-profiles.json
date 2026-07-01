@@ -10,7 +10,9 @@
       "Clean Sweep",
       "Soft Impact",
       "Documentary Sting",
-      "Warm Atmosphere"
+      "Warm Atmosphere",
+      "Soft Breeze",
+      "Page Turn"
     ]
   },
   "Animals / Wildlife Documentary": {
@@ -25,7 +27,10 @@
       "Dark Drone",
       "Tension Riser",
       "Documentary Sting",
-      "Soft Whoosh"
+      "Soft Whoosh",
+      "Birds Chirping",
+      "River Stream",
+      "Light Rain"
     ]
   },
   "Documentary / Explainer": {
@@ -39,7 +44,9 @@
       "Clean Sweep",
       "Low Impact",
       "Warm Atmosphere",
-      "Dark Drone"
+      "Dark Drone",
+      "Clock Tick",
+      "Paper Rustle"
     ]
   },
   "Cars / Engineering": {
@@ -66,7 +73,9 @@
       "Soft UI Click",
       "Documentary Sting",
       "Soft Whoosh",
-      "Warm Atmosphere"
+      "Warm Atmosphere",
+      "Keyboard Typing",
+      "Soft Clap"
     ]
   },
   "Horror / Mystery": {
@@ -79,7 +88,9 @@
       "Tension Riser",
       "Low Impact",
       "Reverse Whoosh",
-      "Trailer Hit"
+      "Trailer Hit",
+      "Door Creak",
+      "Crickets Night"
     ]
   },
   "Action / Trailer": {
@@ -96,16 +107,33 @@
     ]
   },
   "Nature / Travel": {
-    "description": "Nature, water, soft sweeps and calm atmosphere.",
-    "energy": 0.58,
-    "sfxMaster": 58,
+    "description": "Calm natural textures: rain, wind, waves, streams, birds and crickets.",
+    "energy": 0.55,
+    "sfxMaster": 56,
     "voiceVolume": 100,
     "preferredCategories": [
       "Nature Ambience",
       "Water Ambience",
-      "Soft Whoosh",
-      "Warm Atmosphere",
-      "Clean Sweep"
+      "Soft Breeze",
+      "Ocean Waves",
+      "River Stream",
+      "Birds Chirping",
+      "Crickets Night",
+      "Light Rain"
+    ]
+  },
+  "Cozy / Lifestyle": {
+    "description": "Warm, homely sounds: fireplace, pages, doors, calm breathing.",
+    "energy": 0.5,
+    "sfxMaster": 52,
+    "voiceVolume": 100,
+    "preferredCategories": [
+      "Fireplace Crackle",
+      "Page Turn",
+      "Paper Rustle",
+      "Door Close",
+      "Calm Breathing",
+      "Warm Atmosphere"
     ]
   }
 }
